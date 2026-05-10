@@ -150,7 +150,7 @@ def manage_accounts():
                 warn("用户名不能为空"); continue
             if username in users:
                 warn(f"@{username} 已在名单中"); continue
-            alias = input(f"备注名（如：老张1982，留空则显示 @{username}）: ").strip()
+            alias = input(f"备注名（如：abcd，留空则显示 @{username}）: ").strip()
             if not alias:
                 alias = username
             users[username] = alias

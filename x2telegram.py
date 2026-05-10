@@ -25,7 +25,6 @@ TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', '你的BOT_TOKEN')
 TELEGRAM_CHAT_ID   = os.environ.get('TELEGRAM_CHAT_ID', '你的CHAT_ID')
 
 # 格式："备注名:用户名,备注名:用户名"
-# 例：  "老张1982:cryptoresetlife,dandan:ariel_sands_dan"
 USERS_RAW = os.environ.get('TWITTER_USER', '')
 
 # 解析成 {username: alias} 字典

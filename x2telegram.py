@@ -1,6 +1,5 @@
 """
 Twitter/X 监控系统 - Telegram 版
-基于 lixiansky/x2ding，钉钉推送替换为 Telegram，支持账号备注名
 依赖：pip install playwright==1.42.0 playwright-stealth==1.0.6 beautifulsoup4 requests
       playwright install chromium
 """
@@ -23,7 +22,7 @@ from bs4 import BeautifulSoup
 # ============================================================
 
 TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', '你的BOT_TOKEN')
-TELEGRAM_CHAT_ID   = os.environ.get('TELEGRAM_CHAT_ID', '683954829')
+TELEGRAM_CHAT_ID   = os.environ.get('TELEGRAM_CHAT_ID', '你的CHAT_ID')
 
 # 格式："备注名:用户名,备注名:用户名"
 # 例：  "老张1982:cryptoresetlife,dandan:ariel_sands_dan"

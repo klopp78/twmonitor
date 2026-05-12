@@ -1,15 +1,8 @@
 {
-  "telegram_bot_token": "8293701980:AAHNWTf7d6988fB44K2dCxxO7lyXwytuw4s",
-  "telegram_chat_id": "-1003888224016",
+  "telegram_bot_token": "",
+  "telegram_chat_id": "",
   "twitter_users": {
-    "u9_BlockChain": "U9Labs",
-    "Feng_btc": "币胜客",
-    "luyuban69": "鲁与班|Bird",
-    "YOYO_uu9": "悠悠 YOYO",
-    "CryptoUKong": "UKong",
-    "yuan20258888": "左耳",
-    "Reboottttttt": "Reboot.Btc",
-    "xeogy92298766": "一个新手"
+    "abc": "abc"
   },
   "imgbb_api_key": ""
 }
